@@ -15,6 +15,10 @@ namespace TestWebAPI.Models
         MongoServer _server;
         MongoDatabase _db;
 
+        MongoClient _clientAzure;
+        MongoServer _serverAzure;
+        MongoDatabase _dbAzure;
+
         string connectionString =
   @"mongodb://angular-tri:BgoQgavrKYsD34H1009QjoSXA2ETiqgvZBWKnp0MqtNurKOnKGmqHAWHiK8sThwX3BKuQffl5m1uWC0tbWDB5A==@angular-tri.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
 
@@ -22,18 +26,21 @@ namespace TestWebAPI.Models
 
         public DataAccess()
         {
-            _client = new MongoClient(connectionString);
+            _client = new MongoClient(defaultDBstring);
             _server = _client.GetServer();
             _db = _server.GetDatabase("testDB");
 
             MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));
             settings.SslSettings = new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
-            var mongoClient = new MongoClient(settings);
+            _clientAzure = new MongoClient(settings);
+            _serverAzure = _clientAzure.GetServer();
+            _dbAzure = _serverAzure.GetDatabase("testDB");
         }
 
         public IEnumerable<User> GetUsers()
         {
-            return _db.GetCollection<User>("Users").FindAll();
+            return _dbAzure.GetCollection<User>("Users").FindAll();
+            //return _db.GetCollection<User>("Users").FindAll();
         }
 
         public User GetUser(ObjectId id)

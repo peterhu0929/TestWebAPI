@@ -1,0 +1,15 @@
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.csprojAssemblyReference.cache
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.RazorAssemblyInfo.cache
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.RazorAssemblyInfo.cs
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.AssemblyInfoInputs.cache
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.AssemblyInfo.cs
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\bin\Release\netcoreapp2.1\TestWebAPI.deps.json
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\bin\Release\netcoreapp2.1\TestWebAPI.runtimeconfig.json
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\bin\Release\netcoreapp2.1\TestWebAPI.runtimeconfig.dev.json
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\bin\Release\netcoreapp2.1\TestWebAPI.dll
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\bin\Release\netcoreapp2.1\TestWebAPI.pdb
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.dll
+C:\Users\HU\source\repos\TestWebAPI\TestWebAPI\obj\Release\netcoreapp2.1\TestWebAPI.pdb
